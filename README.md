@@ -3,6 +3,9 @@
 - 데이터: kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats
 
 ├── SQL Window 함수 (HackerRank 문제 풀기)
+
 ├── 퍼널 쿼리 작성 실습       ✅ Cookie Cats로 완료
+
 ├── 서브쿼리 → CTE 리팩터링   ✅ Cookie Cats로 완료
+
 └── GitHub에 .sql 파일 커밋
