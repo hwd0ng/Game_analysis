@@ -18,3 +18,13 @@
 
 ### 플레이 시간 구간별 유저 분포
 ![steam funnel](week2/steam_funnel.png)
+
+---
+
+<h2> [ week 3 목표 ] </h2>
+
+- 목적: Cookie Cats A/B 테스트 통계적 유의성 검정
+- 데이터: Cookie Cats (week1과 동일)
+- D1 잔존률 카이제곱 검정    ( ✅ 완료 )
+- D7 잔존률 카이제곱 검정    ( ✅ 완료 )
+- 결론 및 액션 아이템 도출    ( ✅ 완료 )
