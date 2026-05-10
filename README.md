@@ -42,7 +42,7 @@
 - Snowflake CSV 적재 + 쿼리 실습   ( ✅ 완료 )
 
 ### D7 이탈 예측 혼동 행렬
-![confusion matrix](3_ml/confusion_matrix.png)
+![confusion matrix](4_ml/confusion_matrix.png)
 
 ---
 
