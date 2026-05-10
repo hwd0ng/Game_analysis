@@ -41,3 +41,16 @@
 
 ### D7 이탈 예측 혼동 행렬
 ![confusion matrix](week4/confusion_matrix.png)
+
+---
+
+<h2> [ week 5~6 목표 ] </h2>
+
+- 목적: Cookie Cats A/B 테스트 결과 Tableau 대시보드 시각화
+- 데이터: Cookie Cats (week1과 동일)
+- A/B 그룹별 D1·D7 잔존률 막대차트    ( ✅ 완료 )
+- 플레이 구간별 유저 분포 퍼널차트     ( ✅ 완료 )
+- 버전별 플레이량 Box Plot            ( ✅ 완료 )
+- Tableau Public 대시보드 게시        ( ✅ 완료 )
+
+🔗 [Tableau 대시보드 보기](https://public.tableau.com/views/cookie_cats_abtest_analysis_17784089744060/CookieCatsAB?:language=ko-KR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
