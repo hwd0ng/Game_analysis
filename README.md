@@ -59,7 +59,7 @@
 
 --- 
 
-<h2>5_프로젝트 [ 게임 유저 이탈 분석 ]</h2>
+<h2>5_Project [ 게임 유저 이탈 분석 ]</h2>
 
 - 목적: MMORPG 유저 행동 데이터 기반 이탈 요인 분석 및 세그먼트 도출
 - 데이터: Kaggle Online Gaming Behavior Dataset (40,034명)
@@ -71,6 +71,17 @@
 
 ### 변수별 이탈 영향도
 ![feature importance](5_project/feature_importance.png)
+
+[ 로지스틱 회귀 분석 결과 ]
+
+<img width="524" height="497" alt="image" src="https://github.com/user-attachments/assets/f1a37c5b-b1ba-42f9-ac0f-84b270b066b9" />
+
+아래 네 가지 변수가 통계적으로 유의미 ( p-value < 0.05 )
+
+- x2: SessionsPerWeek            (주당 게임 세션 수)
+- x3: AvgSessionDurationMinutes  (각 게임 세션의 평균 지속 시간(분))
+- x4: PlayerLevel                (게임 내 플레이어의 현재 레벨)
+- x5: AchievementsUnlocked       (플레이어가 달성한 업적의 수)
 
 ### 이탈 위험도 구간별 유저 분포
 ![risk segment](5_project/risk_segment.png)
