@@ -44,9 +44,7 @@
 ### D7 이탈 예측 혼동 행렬
 ![confusion matrix](4_ml/confusion_matrix.png)
 
----
-
-<h2>5_Tableau [ 시각화 Tableau 대시보드 구축 ]</h2>
+<h2>Tableau [ 시각화 Tableau 대시보드 구축 ]</h2>
 
 - 목적: Cookie Cats A/B 테스트 결과 Tableau 대시보드 시각화
 - 데이터: Cookie Cats (SQL 실습과 동일)
@@ -59,7 +57,7 @@
 
 --- 
 
-<h2>Project [ 게임 유저 이탈 분석 ]</h2>
+<h2>5_Project [ 게임 유저 이탈 분석 ]</h2>
 
 - 목적: MMORPG 유저 행동 데이터 기반 이탈 요인 분석 및 세그먼트 도출
 - 데이터: Kaggle Online Gaming Behavior Dataset (40,034명)
