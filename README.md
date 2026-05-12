@@ -56,3 +56,21 @@
 - Tableau Public 대시보드 게시       ( ✅ 완료 )
 
 🔗 [Tableau 대시보드 보기](https://public.tableau.com/views/cookie_cats_abtest_analysis_17784089744060/CookieCatsAB?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+--- 
+
+<h2>5_프로젝트 [ 게임 유저 이탈 분석 ]</h2>
+
+- 목적: MMORPG 유저 행동 데이터 기반 이탈 요인 분석 및 세그먼트 도출
+- 데이터: Kaggle Online Gaming Behavior Dataset (40,034명)
+- 분석 설계서 + 7개 가설 수립    ( ✅ 완료 )
+- EDA · 이탈/잔존 비교           ( ✅ 완료 )
+- 로지스틱 회귀 이탈 예측 모델   ( ✅ 완료 )
+- 이탈 위험 세그먼트 정의        ( ✅ 완료 )
+- 액션 아이템 도출               ( ✅ 완료 )
+
+### 변수별 이탈 영향도
+![feature importance](5_project/feature_importance.png)
+
+### 이탈 위험도 구간별 유저 분포
+![risk segment](5_project/risk_segment.png)
