@@ -59,7 +59,7 @@
 
 --- 
 
-<h2>5_Project [ 게임 유저 이탈 분석 ]</h2>
+<h2>Project [ 게임 유저 이탈 분석 ]</h2>
 
 - 목적: MMORPG 유저 행동 데이터 기반 이탈 요인 분석 및 세그먼트 도출
 - 데이터: Kaggle Online Gaming Behavior Dataset (40,034명)
@@ -85,3 +85,6 @@
 
 ### 이탈 위험도 구간별 유저 분포
 ![risk segment](5_project/risk_segment.png)
+
+### 이탈 분석 Tableau 대시보드
+🔗 [대시보드 보기](https://public.tableau.com/views/game_user_churn_analysis/sheet4?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
