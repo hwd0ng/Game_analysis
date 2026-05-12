@@ -72,7 +72,7 @@
 ### 변수별 이탈 영향도
 ![feature importance](5_project/feature_importance.png)
 
-[ 로지스틱 회귀 분석 결과 ]
+**[ 로지스틱 회귀 분석 결과 ]**
 
 <img width="524" height="497" alt="image" src="https://github.com/user-attachments/assets/f1a37c5b-b1ba-42f9-ac0f-84b270b066b9" />
 
