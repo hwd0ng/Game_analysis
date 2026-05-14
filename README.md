@@ -109,3 +109,7 @@
 
 ### 이탈 분석 Tableau 대시보드
 🔗 [대시보드 보기](https://public.tableau.com/views/game_user_churn_analysis/sheet4?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+💡 **핵심 결론:**
+- 이탈을 결정하는 건 플레이 시간이 아닌 접속 빈도.
+- 주 2회 이하 접속 유저 이탈률 84.4% vs 주 7회 이상 10.4% (8배 차이)
