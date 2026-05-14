@@ -1,8 +1,5 @@
 # 게임 데이터 분석 포트폴리오
 
-넥슨 인텔리전스랩스 플레이인사이트팀 지원을 위해 구성한
-게임 데이터 분석 포트폴리오입니다.
-
 **기술 스택**
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
