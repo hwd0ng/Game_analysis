@@ -78,7 +78,7 @@
 **(3) 결론 및 인사이트**<br><br>
 <img width="322" height="92" alt="image" src="https://github.com/user-attachments/assets/2196616e-14b7-4ba8-849c-139cccb77d92" />
 
-<img width="412" height="76" alt="image" src="https://github.com/user-attachments/assets/6a2f90e6-d8b2-4f50-ac90-e9cd92f809ce" />
+<img width="406" height="73" alt="image" src="https://github.com/user-attachments/assets/d52d52ef-a0e4-4b3e-85de-565cd9c36010" />
 
 ---
 
