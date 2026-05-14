@@ -1,3 +1,24 @@
+# 게임 데이터 분석 포트폴리오
+
+넥슨 인텔리전스랩스 플레이인사이트팀 지원을 위해 구성한
+게임 데이터 분석 포트폴리오입니다.
+
+**기술 스택**
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+
+| 섹션 | 주요 내용 | 데이터 |
+|------|----------|--------|
+| 1_SQL | 퍼널 분석 · CTE · Window 함수 | Cookie Cats |
+| 2_Python | 게임 데이터 탐색 · 퍼널 시각화 | Steam |
+| 3_Statistics | A/B 테스트 카이제곱 검정 | Cookie Cats |
+| 4_ML | 이탈 예측 로지스틱 회귀 | Cookie Cats |
+| 5_Project | 게임 유저 이탈 분석 (메인) | Online Gaming |
+
+---
+
 <h2>1_SQL [ 퍼널 분석 · CTE · Window 함수 ]</h2>
 
 - 목적: Cookie Cats A/B 테스트 데이터로 게이트 위치(30 vs 40)에 따른
@@ -74,12 +95,14 @@
 
 <img width="524" height="497" alt="image" src="https://github.com/user-attachments/assets/f1a37c5b-b1ba-42f9-ac0f-84b270b066b9" />
 
-아래 네 가지 변수가 통계적으로 유의미 ( p-value < 0.05 )
+**[ 통계적으로 유의미한 변수 (p-value < 0.05) ]**
 
-- x2: SessionsPerWeek            (주당 게임 세션 수)
-- x3: AvgSessionDurationMinutes  (각 게임 세션의 평균 지속 시간(분))
-- x4: PlayerLevel                (게임 내 플레이어의 현재 레벨)
-- x5: AchievementsUnlocked       (플레이어가 달성한 업적의 수)
+| 순위 | 변수 | 계수 | 해석 |
+|------|------|------|------|
+| 1 | SessionsPerWeek | -2.054 | 접속 빈도 높을수록 이탈 감소 |
+| 2 | AvgSessionDurationMinutes | -1.378 | 세션 길수록 이탈 감소 |
+| 3 | AchievementsUnlocked | -0.319 | 업적 많을수록 이탈 감소 |
+| 4 | PlayerLevel | -0.300 | 레벨 높을수록 이탈 감소 |
 
 ### 이탈 위험도 구간별 유저 분포
 ![risk segment](5_project/risk_segment.png)
