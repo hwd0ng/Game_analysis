@@ -18,11 +18,25 @@
 
 <h2>1_SQL [ 퍼널 분석 · CTE · Window 함수 ]</h2>
 
-- 목적: Cookie Cats A/B 테스트 데이터로 게이트 위치(30 vs 40)에 따른
+- 목적: Cookie Cats A/B 테스트 데이터로 게이트 버전(30 vs 40)에 따른
         D1/D7 잔존률 차이 분석
 - 데이터: kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats
-- 서브쿼리 → CTE 리팩터링    ( ✅ 완료 )
-- 퍼널 쿼리 작성              ( ✅ 완료 )
+
+**(1) D1, D7 잔존률 서브쿼리 → CTE 리팩터링**
+- D1: 플레이어가 설치 후 1일째에 다시 게임을 플레이했는지 여부
+- D7: 플레이어가 설치 후 7일째에 다시 게임을 플레이했는지 여부
+  
+<img width="844" height="125" alt="image" src="https://github.com/user-attachments/assets/7db1981a-046f-4cd5-b04f-3d7c920229d0" />
+
+
+**(2) 라운드 구간별 이탈률 퍼널 쿼리 작성**
+
+<img width="467" height="195" alt="image" src="https://github.com/user-attachments/assets/12d2831f-9631-4689-b6e2-71f02b178764" />
+
+
+**(3) 게이트 버전별 라운드 수 상위 10% 유저 찾기**
+
+<img width="715" height="280" alt="image" src="https://github.com/user-attachments/assets/e5658405-24f8-4b55-819a-25b912ffc46b" />  
 
 ---
 
