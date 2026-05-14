@@ -24,19 +24,20 @@
 
 **(1) D1, D7 잔존률 서브쿼리 → CTE 리팩터링**
 - D1: 플레이어가 설치 후 1일째에 다시 게임을 플레이했는지 여부
-- D7: 플레이어가 설치 후 7일째에 다시 게임을 플레이했는지 여부
-  
+- D7: 플레이어가 설치 후 7일째에 다시 게임을 플레이했는지 여부<br>
 <img width="844" height="125" alt="image" src="https://github.com/user-attachments/assets/7db1981a-046f-4cd5-b04f-3d7c920229d0" />
+<br><br>
 
-
-**(2) 라운드 구간별 이탈률 퍼널 쿼리 작성**
-
+**(2) 라운드 구간별 이탈률 퍼널 쿼리 작성**<br><br>
 <img width="467" height="195" alt="image" src="https://github.com/user-attachments/assets/12d2831f-9631-4689-b6e2-71f02b178764" />
 
-
 **(3) 게이트 버전별 라운드 수 상위 10% 유저 찾기**
+- 게이트 30버전
+<img width="715" height="280" alt="image" src="https://github.com/user-attachments/assets/e5658405-24f8-4b55-819a-25b912ffc46b" />
+<br><br>
 
-<img width="715" height="280" alt="image" src="https://github.com/user-attachments/assets/e5658405-24f8-4b55-819a-25b912ffc46b" />  
+- 게이트 40버전
+<img width="707" height="280" alt="image" src="https://github.com/user-attachments/assets/52b5e75a-492a-4ba9-ba9b-0b4e15ca4f1b" />
 
 ---
 
@@ -45,12 +46,20 @@
 - 목적: Steam 게임 데이터로 구매→플레이 전환율 및
         플레이 시간 구간별 유저 분포 분석
 - 데이터: kaggle.com/datasets/tamber/steam-video-games
-- 구매→플레이 퍼널 분석        ( ✅ 완료 )
-- 플레이 시간 구간별 세그먼트   ( ✅ 완료 )
-- 게임별 평균 플레이 시간 Top 10 ( ✅ 완료 )
-- 시각화 및 이미지 저장         ( ✅ 완료 )
 
-### 플레이 시간 구간별 유저 분포
+**(1) 구매→플레이 퍼널 분석**<br><br>
+<img width="186" height="57" alt="image" src="https://github.com/user-attachments/assets/eb15e152-dd02-44f8-9285-93b16428f39a" />
+<br><br>
+
+**(2) 게임별 평균 플레이 시간 TOP 10**<br><br>
+<img width="325" height="310" alt="image" src="https://github.com/user-attachments/assets/c1fbb852-d9c2-4b9c-9d90-df76c9b76bc4" />
+<br><br>
+
+**(3) 플레이 시간 구간별 세그먼트**<br><br>
+<img width="285" height="108" alt="image" src="https://github.com/user-attachments/assets/575ee185-73f2-4e36-ab3a-4bfa296a732f" />
+<br><br>
+
+**(4) 플레이 시간 구간별 유저 분포 시각화**<br><br>
 ![steam funnel](2_python/steam_funnel.png)
 
 ---
@@ -59,9 +68,17 @@
 
 - 목적: Cookie Cats A/B 테스트 통계적 유의성 검정
 - 데이터: Cookie Cats (SQL 실습과 동일)
-- D1 잔존률 카이제곱 검정   ( ✅ 완료 )
-- D7 잔존률 카이제곱 검정   ( ✅ 완료 )
-- 결론 및 액션 아이템 도출  ( ✅ 완료 )
+
+**(1) D1 잔존률 카이제곱 검정**<br><br>
+<img width="493" height="172" alt="image" src="https://github.com/user-attachments/assets/55b54cd3-57d6-4a49-84dc-f28c4f55c09e" />
+
+**(2) D7 잔존률 카이제곱 검정**<br><br>
+<img width="451" height="173" alt="image" src="https://github.com/user-attachments/assets/94c65359-72c0-46ed-8cef-a847201db0c9" />
+
+**(3) 결론 및 인사이트**<br><br>
+<img width="322" height="92" alt="image" src="https://github.com/user-attachments/assets/2196616e-14b7-4ba8-849c-139cccb77d92" />
+
+<img width="412" height="76" alt="image" src="https://github.com/user-attachments/assets/6a2f90e6-d8b2-4f50-ac90-e9cd92f809ce" />
 
 ---
 
