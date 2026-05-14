@@ -74,6 +74,8 @@
 - 버전별 평균 플레이 라운드 막대차트  ( ✅ 완료 )
 - Tableau Public 대시보드 게시       ( ✅ 완료 )
 
+<img width="765" height="554" alt="image" src="https://github.com/user-attachments/assets/c144c0ee-3c35-4f49-8812-29ea3db62efb" />
+
 🔗 [Tableau 대시보드 보기](https://public.tableau.com/views/cookie_cats_abtest_analysis_17784089744060/CookieCatsAB?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 --- 
@@ -108,6 +110,9 @@
 ![risk segment](5_project/risk_segment.png)
 
 ### 이탈 분석 Tableau 대시보드
+
+<img width="957" height="556" alt="image" src="https://github.com/user-attachments/assets/07dee405-025e-4143-a1eb-2d719c28457f" />
+
 🔗 [대시보드 보기](https://public.tableau.com/views/game_user_churn_analysis/sheet4?:language=ko-KR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 💡 **핵심 결론:**
