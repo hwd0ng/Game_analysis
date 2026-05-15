@@ -82,24 +82,45 @@
 
 ---
 
-<h2>4_ML [ 이탈 예측 · Snowflake 환경 실습 ]</h2>
+<h2>4_ML [ 로지스틱 회귀 - 이탈 예측 모델 ]</h2>
 
-- 목적: D7 이탈 예측 모델 구현 및 Snowflake 환경 실습
+- 목적: D7 이탈 예측 모델 구현
 - 데이터: Cookie Cats
 
 **(1) D7 이탈 예측 로지스틱 회귀**<br>
 - 이슈: 어떤 유저가 D7에 이탈할 것인가?
-- 타겟 변수(y): D7 잔존 여부 (1=잔존, 0=이탈)
+- 타겟 변수(y): D7 이탈 여부 (1=이탈, 0=잔존)
 - 독립 변수(X): version(Gate 30/40그룹), sum_gamerounds(플레이 라운드 수), D1 잔존 여부
 
-**(2) 변수 중요도 분석 및 인사이트 도출**<br><br>
-<img width="257" height="93" alt="image" src="https://github.com/user-attachments/assets/619eb784-2b7b-4748-9daf-e0c45b4b29e7" /><br>
+**(2) 독립 변수 간 다중 공선성 확인**<br>
+<img width="605" height="546" alt="image" src="https://github.com/user-attachments/assets/53cc59bd-b702-4885-99b9-8d96d0cecf02" />
 
-<img width="434" height="158" alt="image" src="https://github.com/user-attachments/assets/f23ec490-567e-4b17-94c9-ad29479fc3f9" />
+**(3) 플레이 라운드 수(sum_gamerounds) 분포 확인 및 로그 변환**
+<img width="838" height="428" alt="image" src="https://github.com/user-attachments/assets/16317ee7-d6e4-422e-b418-6d5e1ee880cd" />
 
-![confusion matrix](4_ml/confusion_matrix.png)
+**(4) 타겟 변수 y(D7) 클래스 불균형 확인**
+<img width="945" height="534" alt="image" src="https://github.com/user-attachments/assets/df9d1ca5-968d-4b2c-af86-d52dbad6adfe" />
 
-<img width="462" height="425" alt="image" src="https://github.com/user-attachments/assets/07b4aefb-35a2-4e65-9e14-d94867d1c139" />
+**(5) 변수 중요도 분석 및 인사이트 도출**<br><br>
+- 변수별 계수
+<img width="493" height="96" alt="image" src="https://github.com/user-attachments/assets/a1a5e4be-be0f-47d3-9b9a-d5486f0ab876" />
+
+- 통계적 유의성 확인
+<img width="540" height="301" alt="image" src="https://github.com/user-attachments/assets/b6d780ae-3ccb-4ba8-a16a-15907c57907c" />
+
+**(6) 분류 리포트 및 혼동행렬 시각화**
+<img width="434" height="188" alt="image" src="https://github.com/user-attachments/assets/feaef579-d418-43d4-b826-14ee85ef39ee" />
+
+<img width="1111" height="602" alt="image" src="https://github.com/user-attachments/assets/493ad43f-97bc-429e-b593-d6fb0310761c" />
+
+<img width="615" height="494" alt="image" src="https://github.com/user-attachments/assets/5398eee7-9109-4110-9d5a-06ceb3fc8520" />
+
+**(7) 분석 결론**
+<img width="461" height="222" alt="image" src="https://github.com/user-attachments/assets/563f154a-0552-4c40-9cee-e2ddf472dc99" />
+
+<img width="660" height="435" alt="image" src="https://github.com/user-attachments/assets/56d0406d-adc1-4da6-bd68-f4301040a181" />
+
+<img width="595" height="377" alt="image" src="https://github.com/user-attachments/assets/3166afe1-d426-45d3-826f-0fdc4cc590c5" />
 
 **(3) Snowflake CSV 적재 + 쿼리 실습** <br><br>
 <img width="1367" height="563" alt="image" src="https://github.com/user-attachments/assets/74f93fd8-1750-47ca-990c-bf323e6b5d38" />
