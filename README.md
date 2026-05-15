@@ -85,22 +85,33 @@
 <h2>4_ML [ 이탈 예측 · Snowflake 환경 실습 ]</h2>
 
 - 목적: D7 이탈 예측 모델 구현 및 Snowflake 환경 실습
-- 데이터: Cookie Cats (SQL 실습과 동일)
-- D7 이탈 예측 로지스틱 회귀       ( ✅ 완료 )
-- 변수 중요도 분석 및 인사이트 도출 ( ✅ 완료 )
-- Snowflake CSV 적재 + 쿼리 실습   ( ✅ 완료 )
+- 데이터: Cookie Cats
 
-### D7 이탈 예측 혼동 행렬
+**(1) D7 이탈 예측 로지스틱 회귀**<br>
+- 이슈: 어떤 유저가 D7에 이탈할 것인가?
+- 타겟 변수(y): D7 잔존 여부 (1=잔존, 0=이탈)
+- 독립 변수(X): version(Gate 30/40그룹), sum_gamerounds(플레이 라운드 수), D1 잔존 여부
+
+**(2) 변수 중요도 분석 및 인사이트 도출**<br><br>
+<img width="257" height="93" alt="image" src="https://github.com/user-attachments/assets/619eb784-2b7b-4748-9daf-e0c45b4b29e7" /><br>
+
+<img width="434" height="158" alt="image" src="https://github.com/user-attachments/assets/f23ec490-567e-4b17-94c9-ad29479fc3f9" />
+
 ![confusion matrix](4_ml/confusion_matrix.png)
+
+<img width="462" height="425" alt="image" src="https://github.com/user-attachments/assets/07b4aefb-35a2-4e65-9e14-d94867d1c139" />
+
+**(3) Snowflake CSV 적재 + 쿼리 실습** <br><br>
+<img width="1367" height="563" alt="image" src="https://github.com/user-attachments/assets/74f93fd8-1750-47ca-990c-bf323e6b5d38" />
 
 <h2>Tableau [ 시각화 Tableau 대시보드 구축 ]</h2>
 
 - 목적: Cookie Cats A/B 테스트 결과 Tableau 대시보드 시각화
 - 데이터: Cookie Cats (SQL 실습과 동일)
-- A/B 그룹별 D1·D7 잔존률 막대차트  ( ✅ 완료 )
-- 플레이 구간별 유저 분포 퍼널차트   ( ✅ 완료 )
-- 버전별 평균 플레이 라운드 막대차트  ( ✅ 완료 )
-- Tableau Public 대시보드 게시       ( ✅ 완료 )
+- A/B 그룹별 D1·D7 잔존률 막대차트
+- 플레이 구간별 유저 분포 퍼널차트
+- 버전별 평균 플레이 라운드 막대차트
+- Tableau Public 대시보드 게시
 
 <img width="765" height="554" alt="image" src="https://github.com/user-attachments/assets/c144c0ee-3c35-4f49-8812-29ea3db62efb" />
 
@@ -112,11 +123,11 @@
 
 - 목적: MMORPG 유저 행동 데이터 기반 이탈 요인 분석 및 세그먼트 도출
 - 데이터: Kaggle Online Gaming Behavior Dataset (40,034명)
-- 분석 설계서 + 7개 가설 수립    ( ✅ 완료 )
-- EDA · 이탈/잔존 비교           ( ✅ 완료 )
-- 로지스틱 회귀 이탈 예측 모델   ( ✅ 완료 )
-- 이탈 위험 세그먼트 정의        ( ✅ 완료 )
-- 액션 아이템 도출               ( ✅ 완료 )
+- 분석 설계서 + 7개 가설 수립
+- EDA · 이탈/잔존 비교
+- 로지스틱 회귀 이탈 예측 모델
+- 이탈 위험 세그먼트 정의
+- 액션 아이템 도출
 
 ### 변수별 이탈 영향도
 ![feature importance](5_project/feature_importance.png)
