@@ -8,7 +8,7 @@
 
 | 섹션 | 주요 내용 | 데이터 |
 |------|----------|--------|
-| 1_SQL | 퍼널 분석 · CTE · Window 함수 | Cookie Cats |
+| 1_SQL | 퍼널 분석 · CTE · Window 함수 · Snowflake 활용 | Cookie Cats |
 | 2_Python | 게임 데이터 탐색 · 퍼널 시각화 | Steam |
 | 3_Statistics | A/B 테스트 카이제곱 검정 | Cookie Cats |
 | 4_ML | 이탈 예측 로지스틱 회귀 | Cookie Cats |
@@ -38,6 +38,9 @@
 
 - 게이트 40버전
 <img width="707" height="280" alt="image" src="https://github.com/user-attachments/assets/52b5e75a-492a-4ba9-ba9b-0b4e15ca4f1b" />
+
+**(4) Snowflake CSV 적재 + 쿼리 실습** <br><br>
+<img width="1367" height="563" alt="image" src="https://github.com/user-attachments/assets/74f93fd8-1750-47ca-990c-bf323e6b5d38" />
 
 ---
 
@@ -121,9 +124,6 @@
 <img width="660" height="435" alt="image" src="https://github.com/user-attachments/assets/56d0406d-adc1-4da6-bd68-f4301040a181" />
 
 <img width="595" height="377" alt="image" src="https://github.com/user-attachments/assets/3166afe1-d426-45d3-826f-0fdc4cc590c5" />
-
-**(3) Snowflake CSV 적재 + 쿼리 실습** <br><br>
-<img width="1367" height="563" alt="image" src="https://github.com/user-attachments/assets/74f93fd8-1750-47ca-990c-bf323e6b5d38" />
 
 <h2>Tableau [ 시각화 Tableau 대시보드 구축 ]</h2>
 
