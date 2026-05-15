@@ -1,4 +1,4 @@
-<img width="850" height="380" alt="image" src="https://github.com/user-attachments/assets/2b6eb2e3-f050-4314-acd9-c2765f58abd0" /># 게임 데이터 분석 포트폴리오
+# 게임 데이터 분석 포트폴리오
 
 **기술 스택**
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
