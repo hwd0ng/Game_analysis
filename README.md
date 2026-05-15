@@ -1,4 +1,4 @@
-# 게임 데이터 분석 포트폴리오
+<img width="850" height="380" alt="image" src="https://github.com/user-attachments/assets/2b6eb2e3-f050-4314-acd9-c2765f58abd0" /># 게임 데이터 분석 포트폴리오
 
 **기술 스택**
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -38,6 +38,7 @@
 
 - 게이트 40버전
 <img width="707" height="280" alt="image" src="https://github.com/user-attachments/assets/52b5e75a-492a-4ba9-ba9b-0b4e15ca4f1b" />
+<br><br>
 
 **(4) Snowflake CSV 적재 + 쿼리 실습** <br><br>
 <img width="1367" height="563" alt="image" src="https://github.com/user-attachments/assets/74f93fd8-1750-47ca-990c-bf323e6b5d38" />
@@ -95,37 +96,45 @@
 - 타겟 변수(y): D7 이탈 여부 (1=이탈, 0=잔존)
 - 독립 변수(X): version(Gate 30/40그룹), sum_gamerounds(플레이 라운드 수), D1 잔존 여부
 
-**(2) 독립 변수 간 다중 공선성 확인**<br>
-<img width="605" height="546" alt="image" src="https://github.com/user-attachments/assets/53cc59bd-b702-4885-99b9-8d96d0cecf02" />
+**(2) 독립 변수 간 다중 공선성 확인**<br><br>
+<img width="583" height="503" alt="image" src="https://github.com/user-attachments/assets/683994da-8a9b-485f-8e09-5e60206103bd" />
+<br><br>
 
 **(3) 플레이 라운드 수(sum_gamerounds) 분포 확인 및 로그 변환**
-<img width="838" height="428" alt="image" src="https://github.com/user-attachments/assets/16317ee7-d6e4-422e-b418-6d5e1ee880cd" />
+
+<img width="850" height="380" alt="image" src="https://github.com/user-attachments/assets/1f0e1e06-e6e6-4943-ba7b-0c556e50829c" />
+<br><br>
 
 **(4) 타겟 변수 y(D7) 클래스 불균형 확인**
-<img width="945" height="534" alt="image" src="https://github.com/user-attachments/assets/df9d1ca5-968d-4b2c-af86-d52dbad6adfe" />
 
-**(5) 변수 중요도 분석 및 인사이트 도출**<br><br>
+<img width="918" height="497" alt="image" src="https://github.com/user-attachments/assets/add557ac-5bc1-44f7-9db1-a779a5161ab9" />
+<br><br>
+
+**(5) 변수 중요도 분석 및 인사이트 도출**
 - 변수별 계수
 <img width="493" height="96" alt="image" src="https://github.com/user-attachments/assets/a1a5e4be-be0f-47d3-9b9a-d5486f0ab876" />
 
 - 통계적 유의성 확인
 <img width="540" height="301" alt="image" src="https://github.com/user-attachments/assets/b6d780ae-3ccb-4ba8-a16a-15907c57907c" />
 
-**(6) 분류 리포트 및 혼동행렬 시각화**
+**(6) 분류 리포트, 혼동행렬, ROC 그래프 시각화**<br><br>
 <img width="434" height="188" alt="image" src="https://github.com/user-attachments/assets/feaef579-d418-43d4-b826-14ee85ef39ee" />
 
 <img width="1111" height="602" alt="image" src="https://github.com/user-attachments/assets/493ad43f-97bc-429e-b593-d6fb0310761c" />
 
 <img width="615" height="494" alt="image" src="https://github.com/user-attachments/assets/5398eee7-9109-4110-9d5a-06ceb3fc8520" />
+<br><br>
 
 **(7) 분석 결론**
+
 <img width="461" height="222" alt="image" src="https://github.com/user-attachments/assets/563f154a-0552-4c40-9cee-e2ddf472dc99" />
 
 <img width="660" height="435" alt="image" src="https://github.com/user-attachments/assets/56d0406d-adc1-4da6-bd68-f4301040a181" />
+<br><br>
 
 <img width="595" height="377" alt="image" src="https://github.com/user-attachments/assets/3166afe1-d426-45d3-826f-0fdc4cc590c5" />
 
-<h2>Tableau [ 시각화 Tableau 대시보드 구축 ]</h2>
+<h2>5_Tableau [ 시각화 Tableau 대시보드 구축 ]</h2>
 
 - 목적: Cookie Cats A/B 테스트 결과 Tableau 대시보드 시각화
 - 데이터: Cookie Cats (SQL 실습과 동일)
@@ -140,7 +149,7 @@
 
 --- 
 
-<h2>5_Project [ 게임 유저 이탈 분석 ]</h2>
+<h2>6_Project [ 게임 유저 이탈 분석 ]</h2>
 
 - 목적: MMORPG 유저 행동 데이터 기반 이탈 요인 분석 및 세그먼트 도출
 - 데이터: Kaggle Online Gaming Behavior Dataset (40,034명)
