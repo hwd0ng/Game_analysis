@@ -1,4 +1,4 @@
-# 게임 데이터 분석 포트폴리오
+<img width="850" height="380" alt="image" src="https://github.com/user-attachments/assets/92c77fda-2513-4ff8-a5dd-ea649fe4e306" /># 게임 데이터 분석 포트폴리오
 
 **기술 스택**
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -116,6 +116,7 @@
 
 - 통계적 유의성 확인
 <img width="540" height="301" alt="image" src="https://github.com/user-attachments/assets/b6d780ae-3ccb-4ba8-a16a-15907c57907c" />
+<br><br>
 
 **(6) 분류 리포트, 혼동행렬, ROC 그래프 시각화**<br><br>
 <img width="434" height="188" alt="image" src="https://github.com/user-attachments/assets/feaef579-d418-43d4-b826-14ee85ef39ee" />
