@@ -20,7 +20,7 @@
 
 - 목적: Cookie Cats A/B 테스트 데이터로 게이트 버전(30 vs 40)에 따른
         D1/D7 잔존률 차이 분석
-- 데이터: kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats
+- 데이터: https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats
 
 **(1) D1, D7 잔존률 서브쿼리 → CTE 리팩터링**
 - D1: 플레이어가 설치 후 1일째에 다시 게임을 플레이했는지 여부
